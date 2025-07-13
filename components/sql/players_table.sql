@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS players (
+    id INTEGER NOT NULL,
+    date TEXT NOT NULL,
+    name TEXT NOT NULL,
+    surname TEXT NOT NULL,
+    age INTEGER NOT NULL,
+    height INTEGER NOT NULL,
+    country TEXT NOT NULL,
+    stamina INTEGER NOT NULL,
+    pace INTEGER NOT NULL,
+    technique INTEGER NOT NULL,
+    passing INTEGER NOT NULL,
+    keeper INTEGER NOT NULL,
+    defending INTEGER NOT NULL,
+    playmaking INTEGER NOT NULL,
+    striker INTEGER NOT NULL,
+    experience INTEGER NOT NULL,
+    teamwork INTEGER NOT NULL,
+    tacticalDiscipline INTEGER NOT NULL,
+    currency TEXT NOT NULL,
+    wage INTEGER NOT NULL,
+    PRIMARY KEY (id, date) ON CONFLICT REPLACE
+  );

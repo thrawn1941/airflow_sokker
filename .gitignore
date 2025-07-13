@@ -1,0 +1,5 @@
+components/logs/*
+components/data/*
+components/db/*
+components/dags/__pycache__
+components/helpers/__pycache__
